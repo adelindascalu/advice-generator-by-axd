@@ -78,6 +78,10 @@ body {
   transition: all 0.3s ease;
 }
 
+.btn img {
+  vertical-align: middle;
+}
+
 .btn:hover {
   box-shadow: 0 0 3.2rem var(--secondary-color);
 }
