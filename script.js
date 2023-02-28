@@ -9,8 +9,11 @@ const generateAdvice = function () {
   adviceFetch
     .then((response) => response.json())
     .then((data) => {
-      adviceId.innerHTML = ` #${data.slip.id}`;
-      adviceText.innerHTML = `"${data.slip.advice}"`;
+      adviceId.textContent = ` #${data.slip.id}`;
+      adviceText.textContent = `"${data.slip.advice}"`;
+      console.log(data);
     })
     .catch((error) => alert("Hm, too many requests. Reload the page, please."));
 };
+
+adviceBtn.addEventListener("click", () => generateAdvice());
