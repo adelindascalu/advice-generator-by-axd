@@ -8,4 +8,4 @@ It is the first of many applications soon to be built as challenges from Fronten
 
 Code: https://github.com/adelindascalu/advice-generator-by-axd
 
-Live preview:
+Live preview: [LIVE](https://htmlpreview.github.io/?https://github.com/adelindascalu/advice-generator-by-axd/blob/main/index.html)
