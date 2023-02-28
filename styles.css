@@ -23,7 +23,7 @@ body {
 
 .container {
   margin: auto;
-  max-width: 60rem;
+  max-width: 64rem;
   padding: 0 3.2rem;
 }
 
@@ -31,12 +31,10 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .advice-container {
   background-color: var(--main-color);
-  color: #fff;
   padding: 4.8rem 9.6rem;
   border-radius: 1rem;
   text-align: center;
@@ -94,8 +92,9 @@ body {
 
 .footer {
   font-size: 1.2rem;
-  color: #fff;
+  color: var(--text-color);
   padding: 2.4rem;
+  text-align: center;
 }
 
 @media (max-width: 32em) {
